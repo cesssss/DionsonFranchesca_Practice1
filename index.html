@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create A New Event</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class = "containter">
+    <form>
+        <label>Event Type: </label>
+        <select id = "dropdown">
+            <option value="Choose One" selected>Choose One</option>
+            <option value="Choose One">Seminar</option>
+            <option value="Choose One">Party</option>
+            <option value="Choose One">Show</option>
+        </select>
+        <br>
+        <br>
+        <label>Event Title: </label>
+        <input type="text" id="title" name="title">
+        <br>
+        <br>
+        <label>Event Dates: </label>
+        <input type="text" id="date1" name="dates"> to <input type="text" id="date2" name="dates">
+        <br>
+        <br>
+        <label>Posting Date: </label>
+        <input type="text" id="postingdate" name="postingdate">
+        <br>
+        <br>
+        <p><input type="checkbox">Is registration required?</p>
+        <p><input type="checkbox">Is this event associated with any Family Programs?</p>
+        <p><input type="checkbox">Upon Registration Completion, Are Users to Recieve an Auto Generated Email?</p>
+        <p><input type="checkbox">Is There a Point of Contact?</p>
+        <p><input type="checkbox">Is There a Hosting Command Point of Contact?</p>
+        <br>
+        <br>
+        <div id="container">
+        <button type="button">Save</button> <button type="button">Cancel</button>
+        </div>  
+    </form>
+</div> 
+</body>
+</html>
